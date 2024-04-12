@@ -6,5 +6,7 @@ module com.pk.ems {
 
     opens com.pk.ems to javafx.fxml;
     exports com.pk.ems;
+    opens com.pk.ems.auth to javafx.fxml;
+
     
 }
