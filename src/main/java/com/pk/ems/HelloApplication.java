@@ -6,7 +6,6 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
-import com.pk.ems.security.WifiDetails;
 
 public class HelloApplication extends Application {
 
