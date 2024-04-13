@@ -1,6 +1,9 @@
 package com.pk.ems;
 
 import java.io.IOException;
+
+import com.pk.ems.security.WifiDetails;
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -19,6 +22,9 @@ public class HelloApplication extends Application {
         stage.setTitle("Hello!");
         stage.setScene(scene);
         stage.show();
+        WifiDetails wifiDetails= new WifiDetails();
+        System.out.println(wifiDetails.getWifiSSID());
+        wifiDetails.printRouterDetails();
     }
 
     public static void main(String[] args) {
